@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
     <h2>Ma Boutique</h2>
     <nav>
@@ -47,7 +46,6 @@
 <section class="content">
     <h2>Nos produits arrivent bientôt...</h2>
 </section>
-
 <script src="script.js"></script>
 </body>
 </html>
