@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>Mon Panier</h2>
+    <nav>
+        <a href="index.html">Accueil</a>
+    </nav>
+</header>
+
+<section class="panier">
+    <h1>Votre panier</h1>
+    <div id="listePanier"></div>
+    <h2 id="total"></h2>
+    <button onclick="viderPanier()">Vider le panier</button>
+</section>
+
+<script src="script.js"></script>
+<script>
+afficherPanier();
+</script>
+
+</body>
+</html>
